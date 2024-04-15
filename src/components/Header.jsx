@@ -1,14 +1,16 @@
-import React, { useState } from "react";
-import { motion } from "framer-motion";
+import React, { useRef, useState } from "react";
+import { motion, useAnimation, useInView } from "framer-motion";
+import RedoAnimText from "./RedoAnimText";
 
 function Header() {
-  const t =
-    "Philippe Layani is a Berlin- and Vienna-based digital UX designer who   blends creativity, technology, and strategy to develop exceptional,  tailor-made interactive experiences that connect brands with theiraudiences."
-    // const textArray = Array.isArray(text) ? text : [text]
-    // const l = textArray.length
-    const text = t.split(
-      " "
-    );
+  const t = [
+    "Philippe Layani is a Berlin- and Vienna-based digital UX designer who   blends creativity, technology, and strategy to develop exceptional,  tailor-made interactive experiences that connect brands with theiraudiences.",
+  ];
+  // const controls = useAnimation();
+  const textArray = Array.isArray(t) ? t : [t];
+  const ref = useRef(null);
+  // const isInView = useInView(ref, { amount: 0.5, once });
+  // const text = t.split(" ");
 
   return (
     <div>
@@ -41,20 +43,7 @@ function Header() {
       </div>
       {/* logo */}
       <div className=" px-9">
-        {text.map((el, i) => (
-          <motion.span
-            className=" text-6xl text-justify leading-normal "
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{
-              duration: 0.25,
-              delay: i / 2,
-            }}
-            key={i}
-          >
-            {el} {" "}
-          </motion.span>
-        ))}
+      <RedoAnimText/>
       </div>
     </div>
   );
