@@ -4,12 +4,14 @@ import React, { useEffect } from "react";
 
 export interface IRedoAnimTextProps {
   delay: number;
+  text: string
 }
 
-export default function RedoAnimText({ delay }: IRedoAnimTextProps) {
+export default function RedoAnimText({ delay, text }: IRedoAnimTextProps) {
   const textIndex = useMotionValue(0);
   const texts = [
-    "Philippe Layani is a Berlin- and Vienna-based digital UX designer who   blends creativity, technology, and strategy to develop exceptional,  tailor-made interactive experiences that connect brands with theiraudiences.",
+    text
+    // "Philippe Layani is a Berlin- and Vienna-based digital UX designer who   blends creativity, technology, and strategy to develop exceptional,  tailor-made interactive experiences that connect brands with theiraudiences.",
   ];
 
   const baseText = useTransform(textIndex, (latest) => texts[latest] || "");
@@ -45,5 +47,5 @@ export default function RedoAnimText({ delay }: IRedoAnimTextProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return <motion.span className="inline text-6xl">{displayText}</motion.span>;
+  return <motion.span className="inline text-5xl">{displayText}</motion.span>;
 }
