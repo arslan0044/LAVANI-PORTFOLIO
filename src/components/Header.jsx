@@ -6,6 +6,7 @@ import {
   VIENNASVGAnimation,
   GreeenTop,
   YellowCiricle,
+  BRANDSVGAnimation,
 } from "./AnimatedSVG";
 
 function Header() {
@@ -19,11 +20,11 @@ function Header() {
   // const text = t.split(" ");
 
   return (
-    <div className=" overflow-hidden">
-      <div className=" flex items-top justify-between px-3">
+    <div className=" overflow-hidden max-w-screen-xl mx-auto">
+      <nav className=" flex items-top justify-between px-3">
         <motion.div
-          initial={{ y: -100,rotate:0,  }}
-          animate={{ y: -10, rotate:5, scale:1.06 , x:5 }}
+          initial={{ y: -100, rotate: 0 }}
+          animate={{ y: -10, rotate: 5, scale: 1.07, x: 5 }}
           transition={{
             duration: 1.5,
             ease: "easeInOut",
@@ -69,26 +70,61 @@ function Header() {
             </div>
           </div>
         </div>
-      </div>
+      </nav>
       {/* logo */}
-      {/* <RedoAnimText text="Philippe Layani is a Berlin- and Vienna-based digital UX designer who   blends creativity, technology, and strategy to develop exceptional,  tailor-made interactive experiences that connect brands with theiraudiences."
-       /> */}
-      <div className=" px-9 flex items-center">
-        <RedoAnimText text="Philippe Layani is a" />
-
-        <BERLINSVGAnimation />
-        <RedoAnimText text="- and" />
-        <VIENNASVGAnimation />
-        <RedoAnimText text="-based digital UX designer who blends creativity" />
-      </div>
-      <div className=" px-9 flex items-center">
-        <RedoAnimText text="Philippe Layani is a" />
-
-        <BERLINSVGAnimation />
-        <RedoAnimText text="- and" />
-        <VIENNASVGAnimation />
-        <RedoAnimText text="-based digital UX designer who blends creativity" />
-      </div>
+      <RedoAnimText text="Philippe Layani is a Berlin- and Vienna-based digital UX designer who   blends creativity, technology, and strategy to develop exceptional,  tailor-made interactive experiences that connect brands with theiraudiences."
+       />
+      {/* <motion.div
+        className=" px-9 flex items-center"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0 }}
+        transition={{ delay: 5, duration: 0 }}
+      >
+       <RedoAnimText
+          text={`Philippe Layani is a ${(<BERLINSVGAnimation />)} - and  ${(
+            <VIENNASVGAnimation />
+          )} -based digital UX designer who blends creativity`}
+        /> 
+      </motion.div>
+      <motion.div
+        className=" px-9 flex items-center text-4xl"
+        initial={{ opacity: 1 }}
+        animate={{ opacity: 1, y: -96 }}
+        transition={{ delay: 5, duration: 0 }}
+      >
+        Philippe Layani is a 
+        <span>
+          <motion.span
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              duration: 0.5,
+              ease: "easeInOut",
+              repeat: Infinity,
+              repeatType: "loop",
+              repeatDelay: 5,
+            }}
+          >
+            <BERLINSVGAnimation />
+          </motion.span>
+          <motion.span
+            initial={{ opacity:0 }}
+            animate={{ rotate:90 }}
+            transition={{
+              duration: 1,
+              ease: "easeInOut",
+              repeat: Infinity,
+              repeatType: "loop",
+              repeatDelay: 1,
+            }}
+          >
+            Berlin
+          </motion.span>
+        </span>
+        - and <VIENNASVGAnimation />
+        -based digital UX designer who blends creativity
+      </motion.div>
+      <BRANDSVGAnimation/> */}
     </div>
   );
 }

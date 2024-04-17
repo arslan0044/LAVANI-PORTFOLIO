@@ -1,20 +1,16 @@
 "use client";
 import { motion, useMotionValue, useTransform, animate } from "framer-motion";
-import React, { useEffect } from "react";
+import React, { ReactHTML, useEffect } from "react";
 
 export interface IRedoAnimTextProps {
   delay: number;
-  text: string
+  text: String
 }
 
 export default function RedoAnimText({ delay, text }: IRedoAnimTextProps) {
   const textIndex = useMotionValue(0);
-  const texts = [
-    text
-    // "Philippe Layani is a Berlin- and Vienna-based digital UX designer who   blends creativity, technology, and strategy to develop exceptional,  tailor-made interactive experiences that connect brands with theiraudiences.",
-  ];
-
-  const baseText = useTransform(textIndex, (latest) => texts[latest] || "");
+  const texts = [text]
+  const baseText = useTransform(textIndex, (latest) => texts[latest]);
   const count = useMotionValue(0);
   const rounded = useTransform(count, (latest) => Math.round(latest));
   const displayText = useTransform(rounded, (latest) =>
@@ -47,5 +43,7 @@ export default function RedoAnimText({ delay, text }: IRedoAnimTextProps) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return <motion.span className="inline text-5xl">{displayText}</motion.span>;
+  return <motion.span className="inline text-4xl">{displayText}</motion.span>
+
+
 }
