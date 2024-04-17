@@ -5,3 +5,12 @@
 body{
     background-color:#F6F2E9;
 }
+@font-face {
+    font-family: "SaolDisplay-Light";
+    src: url("https://db.onlinewebfonts.com/t/7b9ef47e477d7db975da9dda4b155d02.eot");
+    src: url("https://db.onlinewebfonts.com/t/7b9ef47e477d7db975da9dda4b155d02.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7b9ef47e477d7db975da9dda4b155d02.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7b9ef47e477d7db975da9dda4b155d02.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7b9ef47e477d7db975da9dda4b155d02.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7b9ef47e477d7db975da9dda4b155d02.svg#SaolDisplay-Light")format("svg");
+}
