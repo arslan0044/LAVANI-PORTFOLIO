@@ -4,9 +4,9 @@ import RedoAnimText from "./RedoAnimText";
 import {
   BERLINSVGAnimation,
   VIENNASVGAnimation,
+  BRANDSVGAnimation,
   GreeenTop,
   YellowCiricle,
-  BRANDSVGAnimation,
 } from "./AnimatedSVG";
 
 function Header() {
