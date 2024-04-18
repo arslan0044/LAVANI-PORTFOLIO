@@ -3,8 +3,8 @@ import React from "react";
 
 function Section7() {
   return (
-    <div >
-      <div className="">
+    <div className="relative">
+      <div className=" relative">
         <motion.svg
           initial={{ x: 300, y: 200 }}
           width="1789"
@@ -19,60 +19,87 @@ function Section7() {
           />
         </motion.svg>
       </div>
-      <div className=" max-w-screen-xl flex mx-auto justify-between absolute">
-        <motion.div className=" flex flex-col" whileInView={{ x: 150, y: -90 }}>
-          <div className=" w-[576px] h-[354px] bg-white" >
-          <img src="" alt="" />
-
-          </div>
-          <div>
-            <span className=" font-thin text-2xl font-[SaolDisplay-Light]">
-              Client: Coca Cola
-            </span>
-            <br />
-            <span className=" font-thin text-2xl font-[SaolDisplay-Light]">
-              Projekt: dolor sit amet
-            </span>
-            <br />
-            <span className=" font-thin text-2xl font-[SaolDisplay-Light]">
-              Date: consetetur
-            </span>
-          </div>
-          <div className=" w-96 mt-9">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            eligendi illo saepe nisi veniam quisquam blanditiis inventore
-            voluptatum aspernatur nam quis porro earum fuga labore corporis
-            sequi, aliquid error.
-          </div>
-        </motion.div>
-        <motion.div className=" flex flex-col" whileInView={{ x: 330, y: -150 }}>
-          <div className=" w-[424px] h-[649px] bg-white" >
-          <img src="" alt="" />
-
-          </div>
-          <div>
-            <span className=" font-thin text-2xl font-[SaolDisplay-Light]">
-              Client: Coca Cola
-            </span>
-            <br />
-            <span className=" font-thin text-2xl font-[SaolDisplay-Light]">
-              Projekt: dolor sit amet
-            </span>
-            <br />
-            <span className=" font-thin text-2xl font-[SaolDisplay-Light]">
-              Date: consetetur
-            </span>
-          </div>
-          <div className=" w-96 mt-9">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            eligendi illo saepe nisi veniam quisquam blanditiis inventore
-            voluptatum aspernatur nam quis porro earum fuga labore corporis
-            sequi, aliquid error.
-          </div>
-        </motion.div>
- 
+      <motion.div
+        initial={{ x: 0, y: 490 }}
+        className=" flex justify-end relative h-screen"
+      >
+        <motion.svg
+          width="184"
+          height="519"
+          viewBox="0 0 384 819"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M197.386 12.9928C146.684 11.5297 86.2833 21.0116 64.278 66.7093C50.5661 95.1769 56.7937 128.78 63.3043 159.707C88.0125 277.02 112.719 394.334 137.423 511.647C145.008 547.676 152.958 584.605 172.891 615.558C196.394 652.041 234.255 676.639 272.482 697.177C390.829 760.582 522.355 795.45 656.569 799.001C700.415 800.112 749.122 795.8 779.252 763.925C815.043 726.052 809.677 666.487 801.975 614.952C779.278 463.031 752.548 293.909 643.311 177.231C537.617 64.3364 346.841 17.3012 197.386 12.9928Z"
+            fill="#62AE75"
+          />
+          <path
+            d="M855.263 801.176C817.952 756.814 778.516 714.421 738.066 672.994C760.198 652.301 781.155 630.384 800.838 607.347C799.892 601.023 798.933 594.674 797.962 588.3C777.297 613.403 755.11 637.215 731.528 659.6C730.389 660.677 729.206 661.695 728.068 662.767C682.028 616.006 634.757 570.437 587.545 524.878C618.675 497.213 647.659 467.225 674.247 435.172C698.762 405.551 721.099 374.194 741.084 341.347C738.957 335.636 736.747 329.961 734.453 324.324C692.232 395.616 639.162 459.895 577.153 514.85C576.21 513.936 575.266 513.027 574.323 512.114C534.788 473.924 495.777 435.246 457.29 396.079C521.098 348.837 579.273 294.428 630.674 233.921C640.92 221.836 650.876 209.513 660.544 196.952C657.413 193.144 654.208 189.385 650.928 185.675C610.338 238.629 564.634 287.46 514.476 331.459C492.827 350.464 470.386 368.543 447.153 385.694C410.975 348.596 375.419 310.9 340.486 272.605C385.466 236.125 425.879 193.934 462.248 148.945C479.26 127.899 495.398 106.164 510.954 84.0222C506.574 81.9381 502.158 79.9095 497.706 77.9363C461.434 129.34 421.603 178.244 376.197 221.877C361.645 235.857 346.495 249.209 330.748 261.932C318.248 248.1 305.839 234.179 293.522 220.169C276.686 200.975 260.05 181.615 243.612 162.091C282.518 132.215 315.269 94.4228 341.232 52.7732C345.5 45.9251 349.54 38.9467 353.438 31.8976C348.508 30.8434 343.58 29.8349 338.653 28.872C321.776 58.9357 301.319 86.8445 277.73 111.989C264.326 126.15 249.787 139.193 234.258 150.986C204.473 115.526 175.243 79.609 146.567 43.2361C140.876 36.0048 128.65 43.6953 134.406 51.0135C163.213 87.6428 192.618 123.795 222.62 159.471C188.261 183.39 149.686 200.972 108.424 210.168C97.4128 212.595 86.2662 214.361 75.044 215.458C76.0306 220.134 77.017 224.811 78.0033 229.491C119.101 225.116 159.336 212.323 196.026 192.848C208.462 186.214 220.47 178.806 231.977 170.667C260.595 204.522 289.744 237.919 319.427 270.857C271.885 307.54 219.353 337.666 162.522 357.592C144.749 363.818 126.617 368.964 108.223 373.001C109.209 377.683 110.197 382.368 111.185 387.057C166.929 374.764 220.44 352.28 269.367 322.785C290.064 310.248 310.009 296.508 329.097 281.636C353.27 308.325 377.765 334.719 402.583 360.816C413.339 372.104 424.174 383.308 435.088 394.427C369.873 441.216 299.375 480.163 225.051 510.463C198.32 521.333 171.153 531.003 143.548 539.473C144.659 544.165 145.837 548.836 147.083 553.485C224.195 529.672 298.225 496.832 367.631 455.648C394.255 439.878 420.142 422.925 445.294 404.791C485.102 445.176 525.703 484.755 566.435 524.204C492.293 587.897 407.338 637.791 315.598 671.521C297.011 678.328 278.188 684.419 259.129 689.794C263.559 692.315 268.01 694.773 272.483 697.169C273.956 697.965 275.46 698.698 276.941 699.484C334.246 682.114 389.476 658.52 441.644 629.125C489.712 602.026 534.989 570.252 576.819 534.265C615.197 571.418 653.605 608.546 691.459 646.256C700.175 654.939 708.846 663.668 717.473 672.444C666.475 718.474 609.759 757.741 548.724 789.274C556.772 790.512 564.836 791.634 572.918 792.64C596.287 779.873 619.06 766.02 641.045 750.999C671.401 730.23 700.311 707.422 727.574 682.733C768.303 724.428 807.949 767.17 845.473 811.78C848 814.785 853.231 813.952 855.666 811.374C858.62 808.246 857.754 804.139 855.261 801.175"
+            fill="#88C4D2"
+          />
+        </motion.svg>
+      </motion.div>
+        <div className=" max-w-screen-xl flex mx-auto justify-between ">
+          <motion.div
+            className=" flex flex-col"
+            // ={{ x: 0, y: 0 }}
+            initial={{ x: 0, y: -790 }}
+            // transition={{ duration: 1.5, ease: "easeInOut" }}
+          >
+            <div className=" w-[576px] h-[354px] bg-white">
+              <img src="" alt="" />
+            </div>
+            <div>
+              <span className=" font-thin text-2xl font-[SaolDisplay-Light]">
+                Client: Coca Cola
+              </span>
+              <br />
+              <span className=" font-thin text-2xl font-[SaolDisplay-Light]">
+                Projekt: dolor sit amet
+              </span>
+              <br />
+              <span className=" font-thin text-2xl font-[SaolDisplay-Light]">
+                Date: consetetur
+              </span>
+            </div>
+            <div className=" w-96 mt-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              eligendi illo saepe nisi veniam quisquam blanditiis inventore
+              voluptatum aspernatur nam quis porro earum fuga labore corporis
+              sequi, aliquid error.
+            </div>
+          </motion.div>
+          <motion.div
+            className=" flex flex-col"
+            initial={{ x: 0, y: -850 }}
+          >
+            <div className=" w-[424px] h-[649px] bg-white">
+              <img src="" alt="" />
+            </div>
+            <div>
+              <span className=" font-thin text-2xl font-[SaolDisplay-Light]">
+                Client: Coca Cola
+              </span>
+              <br />
+              <span className=" font-thin text-2xl font-[SaolDisplay-Light]">
+                Projekt: dolor sit amet
+              </span>
+              <br />
+              <span className=" font-thin text-2xl font-[SaolDisplay-Light]">
+                Date: consetetur
+              </span>
+            </div>
+            <div className=" w-96 mt-6">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              eligendi illo saepe nisi veniam quisquam blanditiis inventore
+              voluptatum aspernatur nam quis porro earum fuga labore corporis
+              sequi, aliquid error.
+            </div>
+          </motion.div>
+        </div>
       </div>
-    </div>
+
   );
 }
 
