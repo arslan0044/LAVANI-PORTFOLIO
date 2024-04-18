@@ -3,18 +3,19 @@ import React from "react";
 
 function Section6() {
   return (
-    <>
-      <motion.div initial={{ y: -100 }} className=" absolute w-full">
-        <motion.h1
+    <div div className=" overflow-hidden">
+      <motion.div initial={{ y: -100 }} className=" absolute flex  w-full">
+      <motion.h1
           className=" text-9xl font-[SaolDisplay-Light] self-center"
-          initial={{ scale: 2.2, x: 1260, y: -80 }}
+          initial={{ scale: 2.2, x: 560, y: -80 }}
           transition={{ duration: 1 }}
         >
           Archive
         </motion.h1>
+       
         <div className=" ">
           <motion.svg
-            initial={{ x: 0, y: -200 }}
+            initial={{ x: -430, y: -60 }}
             width="323"
             height="166"
             viewBox="0 0 323 166"
@@ -51,7 +52,7 @@ function Section6() {
             />
           </motion.svg>
         </div>
-        <motion.div initial={{y:-800}} className=" w-full justify-end flex absolute ">
+        <motion.div initial={{y:-450}} className=" w-full justify-end flex absolute ">
           <svg
             width="236"
             height="828"
@@ -66,7 +67,7 @@ function Section6() {
           </svg>
         </motion.div>
       </motion.div>
-    </>
+    </div>
   );
 }
 
