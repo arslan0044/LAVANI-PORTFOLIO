@@ -3,7 +3,7 @@ import React from "react";
 
 function Section10() {
   return (
-    <div className=" h-[200vh]">
+    <div className=" h-[260vh]">
       <div className=" flex justify-end">
         <svg
           width="462"
@@ -442,7 +442,7 @@ function Section10() {
           </div>
         </div>
       </motion.div>
-      <motion.div initial={{ rotate: -90, y: -700, x: -800 }} className="">
+      <motion.div initial={{ rotate: -90, y: -600, x: -700 }} className="">
         <h1 className=" text-5xl font-[SaolDisplay-Light] ">02 Archive</h1>
       </motion.div>
     </div>

@@ -13,6 +13,7 @@ import Section7 from "./components/Section7.jsx";
 import Section8 from "./components/Section8.jsx";
 import Section9 from "./components/Section9.jsx";
 import Section10 from "./components/Section10.jsx";
+import Section11 from "./components/Section11.jsx";
 function App() {
   return (
     <div div className=" overflow-hidden">
@@ -28,6 +29,7 @@ function App() {
       <Section8/>
       <Section9/>
       <Section10/>
+      <Section11/>
 
       {/*     
       <TAILORMADESVGAnimation/>
