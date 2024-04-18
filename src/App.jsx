@@ -14,7 +14,7 @@ import Section8 from "./components/Section8.jsx";
 import Section9 from "./components/Section9.jsx";
 function App() {
   return (
-    <div div className=" overflow-hidden">
+    <div div className=" overflow-hidden max-w-screen-2xl">
       {/* <NEWSVGTest/> */}
       <Header />
       <Section1 />
