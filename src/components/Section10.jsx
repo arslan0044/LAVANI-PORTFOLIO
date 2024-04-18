@@ -443,7 +443,7 @@ function Section10() {
         </div>
       </motion.div>
       <motion.div initial={{ rotate: -90, y: -600, x: -700 }} className="">
-        <h1 className=" text-5xl font-[SaolDisplay-Light] ">02 Archive</h1>
+        <h1 className=" text-5xl font-[SaolDisplay-Light] ">03 Clients</h1>
       </motion.div>
     </div>
   );
