@@ -24,6 +24,7 @@ function App() {
       <Section6 />
       <Section7/>
       <Section8/>
+
       {/*     
       <TAILORMADESVGAnimation/>
       <BERLINSVGAnimation/> */}
