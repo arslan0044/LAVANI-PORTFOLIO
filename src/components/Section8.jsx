@@ -106,7 +106,7 @@ function Section8() {
           </div>
         </motion.div>
       </div>
-      <motion.div initial={{ rotate: -90, y: -2300, x: -700 }}>
+      <motion.div initial={{ rotate: -90, y: -2400, x: -800 }}>
         <h1 className=" text-5xl font-[SaolDisplay-Light]">02 Archive</h1>
       </motion.div>
     </div>

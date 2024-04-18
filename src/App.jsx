@@ -12,9 +12,10 @@ import Section6 from "./components/Section6";
 import Section7 from "./components/Section7.jsx";
 import Section8 from "./components/Section8.jsx";
 import Section9 from "./components/Section9.jsx";
+import Section10 from "./components/Section10.jsx";
 function App() {
   return (
-    <div div className=" overflow-hidden max-w-screen-2xl">
+    <div div className=" overflow-hidden">
       {/* <NEWSVGTest/> */}
       <Header />
       <Section1 />
@@ -26,6 +27,7 @@ function App() {
       <Section7/>
       <Section8/>
       <Section9/>
+      <Section10/>
 
       {/*     
       <TAILORMADESVGAnimation/>
