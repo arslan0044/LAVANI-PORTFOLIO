@@ -51,7 +51,7 @@ function Section13() {
           brand experiences together.
         </div>
       </div>
-      <motion.div whileInView={{ y: -1020 }} className=" absolute">
+      <motion.div initial={{ y: -1020 }} className=" absolute">
         <svg
           width="504"
           height="964"
