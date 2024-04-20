@@ -16,8 +16,8 @@ body {
         url("https://db.onlinewebfonts.com/t/7b9ef47e477d7db975da9dda4b155d02.svg#SaolDisplay-Light") format("svg");
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     height: 0px;
     width: 0px;
-}
+} */
 

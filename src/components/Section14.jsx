@@ -3,7 +3,7 @@ import React from "react";
 
 function Section14() {
   return (
-    <div>
+    <div className=" relative h-screen">
       <motion.div
         initial={{ y: -900 }}
         className="absolute w-full justify-end flex"
