@@ -62,69 +62,19 @@ function Header() {
         </div>
         <div className="relative flex">
           <YellowCiricle className=" absolute mt-[-20px]" />
-          <div className=" absolute mt-36 mx-24 text-3xl flex items-center justify-center gap-6">
+          <button onClick={() => alert("Hello World!")} className=" absolute mt-36 mx-24 text-3xl flex items-center justify-center gap-6">
             <div>Menu</div>
             <div className="flex flex-col gap-2 justify-center items-center">
               <div className="w-16 h-1 bg-black"></div>
               <div className="w-16 h-1 bg-black"></div>
             </div>
-          </div>
+          </button>
         </div>
       </nav>
       {/* logo */}
       <RedoAnimText text="Philippe Layani is a Berlin- and Vienna-based digital UX designer who   blends creativity, technology, and strategy to develop exceptional,  tailor-made interactive experiences that connect brands with theiraudiences."
        />
-      {/* <motion.div
-        className=" px-9 flex items-center"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 0 }}
-        transition={{ delay: 5, duration: 0 }}
-      >
-       <RedoAnimText
-          text={`Philippe Layani is a ${(<BERLINSVGAnimation />)} - and  ${(
-            <VIENNASVGAnimation />
-          )} -based digital UX designer who blends creativity`}
-        /> 
-      </motion.div>
-      <motion.div
-        className=" px-9 flex items-center text-4xl"
-        initial={{ opacity: 1 }}
-        animate={{ opacity: 1, y: -96 }}
-        transition={{ delay: 5, duration: 0 }}
-      >
-        Philippe Layani is a 
-        <span>
-          <motion.span
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{
-              duration: 0.5,
-              ease: "easeInOut",
-              repeat: Infinity,
-              repeatType: "loop",
-              repeatDelay: 5,
-            }}
-          >
-            <BERLINSVGAnimation />
-          </motion.span>
-          <motion.span
-            initial={{ opacity:0 }}
-            animate={{ rotate:90 }}
-            transition={{
-              duration: 1,
-              ease: "easeInOut",
-              repeat: Infinity,
-              repeatType: "loop",
-              repeatDelay: 1,
-            }}
-          >
-            Berlin
-          </motion.span>
-        </span>
-        - and <VIENNASVGAnimation />
-        -based digital UX designer who blends creativity
-      </motion.div>
-      <BRANDSVGAnimation/> */}
+     
     </div>
   );
 }

@@ -288,7 +288,7 @@ function Section15() {
           <div className="max-w-screen-xl w-full flex items-end justify-between  mx-auto">
             <div>Imprint</div>
             <div className=" flex flex-col justify-between h-96 items-center">
-              <div className=" flex gap-5">
+              <div className=" flex gap-8">
                 <a href="#">Work </a>
                 <a href="#"> Archive </a>
                 <a href="#">Clients </a>
