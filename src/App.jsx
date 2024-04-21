@@ -22,7 +22,11 @@ import { useState } from "react";
 import Menu from "./components/Menu";
 function App() {
   const [open, setOpen] = useState(false);
-  // const [isVisible, setisVisible] = useState(false)
+  const Cansal = (chose)=>{
+    if(chose){
+      setOpen(false)
+    }
+     }
   return (
     <div div className=" overflow-hidden">
       
@@ -99,7 +103,7 @@ function App() {
           <Section15 />
         </>
       )}
-      {open && <Menu isVisible={true}  />}
+      {open && <Menu isVisible={Cansal}  />}
       {/* <>
        <Header />
        <Section1 />
