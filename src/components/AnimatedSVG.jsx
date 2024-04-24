@@ -6,7 +6,7 @@ function TAILORMADESVGAnimation() {
   useEffect(() => {
     const interval = setInterval(() => {
       setShowText((prevState) => !prevState);
-    }, 2000); // Change the interval duration (in milliseconds) as needed
+    }, 3000); // Change the interval duration (in milliseconds) as needed
     return () => clearInterval(interval);
   }, []);
   return (
@@ -627,7 +627,7 @@ function VIENNASVGAnimation() {
   useEffect(() => {
     const interval = setInterval(() => {
       setShowText((prevState) => !prevState);
-    }, 4000); // Change the interval duration (in milliseconds) as needed
+    }, 3000); // Change the interval duration (in milliseconds) as needed
     return () => clearInterval(interval);
   }, []);
   return (

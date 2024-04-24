@@ -72,6 +72,10 @@ export default function RedoAnimText({ delay, text }: IRedoAnimTextProps) {
             <VIENNASVGAnimation />
           ) : el === "UX" ? (
             <BRANDSVGAnimation />
+          ) : el === "creativity," ? (
+            <span className=" font-bold capitalize"> Creativity,</span>
+          ) : el === "experiences" ? (
+            <span className=" font-bold capitalize"> experiences ,</span>
           ) : el === "tailor" ? (
             <TAILORMADESVGAnimation />
           ) : el === "brands" ? (
