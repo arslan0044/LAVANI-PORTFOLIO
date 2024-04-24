@@ -1,6 +1,9 @@
-import { motion, AnimatePresence, usePresence,useCycle } from "framer-motion";
+import { motion, AnimatePresence, usePresence, useCycle } from "framer-motion";
+// import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import React, { useRef } from "react";
+import { BrowserRouter } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 function Menu({ isVisible, Cancel }) {
   const ref = useRef(null);
@@ -42,8 +45,8 @@ function Menu({ isVisible, Cancel }) {
                 <br /> DIGITAL DESIGN
               </motion.div>
             </motion.div>
-         
-           <motion.div
+
+            <motion.div
               initial={{ opacity: 0, y: -738 }}
               animate={{ y: -738, opacity: 1 }}
               transition={{ delay: 2 }}
@@ -87,7 +90,7 @@ function Menu({ isVisible, Cancel }) {
                 </div>
                 <div>
                   <button
-                    onClick={() => (Cancel(true))}
+                    onClick={() => Cancel(true)}
                     className=" flex text-2xl items-center h-32 w-32 justify-center"
                   >
                     Menu
@@ -152,25 +155,55 @@ function Menu({ isVisible, Cancel }) {
                 </svg>
               </motion.div>
               <div className=" max-w-screen-md mx-auto my-16">
-                <div className=" gap-7 items-center justify-center grid grid-cols-2">
-                  <h1 className=" text-7xl  font-[SaolDisplay-Light]">Work</h1>
-                  <h1 className=" text-7xl  font-[SaolDisplay-Light]">
-                    Archive
-                  </h1>
-                  <h1 className=" text-7xl  font-[SaolDisplay-Light]">
-                    Clients
-                  </h1>
-                  <h1 className=" text-7xl  font-[SaolDisplay-Light]">
-                    Services
-                  </h1>
-                  <h1 className=" text-7xl  font-[SaolDisplay-Light]">About</h1>
-                  <h1 className=" text-7xl  font-[SaolDisplay-Light]">
-                    Contact
-                  </h1>
-                </div>
+                <BrowserRouter>
+                  <div className=" gap-7 items-center justify-center grid grid-cols-2">
+                    <Link
+                      onClick={() => Cancel(true)}
+                      to="#work"
+                      className=" text-7xl  font-[SaolDisplay-Light]"
+                    >
+                      Work
+                    </Link>
+                    <Link
+                    onClick={() => Cancel(true)}
+                      to="#archive"
+                      className=" text-7xl  font-[SaolDisplay-Light]"
+                    >
+                      Archive
+                    </Link>
+                    <Link
+                      onClick={() => Cancel(true)}
+                      to="#clients"
+                      className=" text-7xl  font-[SaolDisplay-Light]"
+                    >
+                      Clients
+                    </Link>
+                    <Link
+                      onClick={() => Cancel(true)}
+                      to="#services"
+                      className=" text-7xl  font-[SaolDisplay-Light]"
+                    >
+                      Services
+                    </Link>
+                    <Link
+                      onClick={() => Cancel(true)}
+                      to="#about"
+                      className=" text-7xl  font-[SaolDisplay-Light]"
+                    >
+                      About
+                    </Link>
+                    <Link
+                      onClick={() => Cancel(true)}
+                      to="#contact"
+                      className=" text-7xl  font-[SaolDisplay-Light]"
+                    >
+                      Contact
+                    </Link>
+                  </div>
+                </BrowserRouter>
               </div>
               <motion.div
-                whileInView={{ x: 1450, y: -440 }}
+                initial={{ x: 1450, y: -440 }}
                 className=" absolute"
               >
                 <svg
@@ -290,7 +323,7 @@ function Menu({ isVisible, Cancel }) {
                   />
                 </svg>
               </motion.div>
-              <div className=" flex justify-between items-end w-full mx-auto max-w-screen-xl">
+              <div className=" flex justify-between h-[160px] items-end w-full mx-auto max-w-screen-xl">
                 <div>imprint</div>
                 <div className=" flex flex-col justify-between items-center">
                   <div className=" flex gap-4 text-2xl h-16">

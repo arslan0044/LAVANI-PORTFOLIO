@@ -19,6 +19,7 @@ function Section10() {
         </svg>
       </div>
       <motion.h1
+      id="clients"
         className=" text-9xl font-[SaolDisplay-Light] self-center h-96"
         whileInView={{ scale: 2, x: 1300, y: 340 }}
         transition={{ duration: 1 }}

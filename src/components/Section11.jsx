@@ -4,7 +4,7 @@ import React from "react";
 function Section11() {
   return (
     <div className=" ">
-      <div className=" flex justify-end">
+      <div  className=" flex justify-end">
         <svg
           width="368"
           height="593"
@@ -107,6 +107,14 @@ function Section11() {
         </svg>
       </div>
       <div>
+      <motion.h1
+        className=" text-9xl font-[SaolDisplay-Light] self-center"
+        whileInView={{ scale: 2.2, x: 1200, y: 400 }}
+        transition={{ duration: 1 }}
+        id="services"
+      >
+        Services
+      </motion.h1>
         <div className="">
           <svg
             width="229"
@@ -121,7 +129,8 @@ function Section11() {
             />
           </svg>
         </div>
-        <div>
+        <div >
+
           <motion.div initial={{ y: -900, x: 500 }} className=" absolute">
           <svg width="444" height="371" viewBox="0 0 444 371" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M165.568 275.108C158.903 257.478 157.634 237.708 165.002 220.044C172.893 201.144 186.744 189.175 201.965 176.736C214.637 166.379 225.15 154.307 237.058 143.172C245.182 135.572 253.721 127.072 259.439 117.456C263.313 110.934 263.499 101.556 268.755 96.6339C272.232 93.3769 278.055 92.4569 282.317 90.8119C289.046 88.2209 295.365 84.7869 302.223 82.5369C311.6 79.4659 318.35 76.7019 328.323 77.0259C342.386 77.4839 356.475 77.4669 370.534 78.0259C384.734 78.5879 394.669 92.0539 389.659 106.217C387.728 111.672 381.315 117.546 378.412 123.243C375.333 129.151 371.731 134.771 367.649 140.036C358.233 152.419 347.889 164.383 338.56 176.584C332.301 184.764 331.602 196.759 327.218 205.984C322.661 215.584 315.88 223.843 309.89 232.464C302.003 243.81 287.768 249.879 277.713 259.091C269.313 266.791 266.185 275.266 260.354 284.954C253.724 295.976 245.22 298.879 234.202 304.506C224.428 309.499 210.615 318.833 201.407 310.35C196.872 306.178 194.407 303.275 188.507 300.382C183.359 297.86 182.607 297.376 180.313 292.625C177.342 286.462 174.219 276.761 165.572 275.115" fill="#FF9293"/>
@@ -132,13 +141,7 @@ function Section11() {
 </svg>
 
           </motion.div>
-        <motion.h1
-        className=" text-9xl font-[SaolDisplay-Light] self-center"
-        whileInView={{ scale: 2.2, x: 1200, y: -400 }}
-        transition={{ duration: 1 }}
-      >
-        Services
-      </motion.h1>
+  
         </div>
       </div>
     </div>

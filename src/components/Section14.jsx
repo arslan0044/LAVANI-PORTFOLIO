@@ -3,7 +3,7 @@ import React from "react";
 
 function Section14() {
   return (
-    <div className=" relative h-screen">
+    <div id="contact" className=" relative h-screen">
       <motion.div
         initial={{ y: -900 }}
         className="absolute w-full justify-end flex"
@@ -25,6 +25,7 @@ function Section14() {
         className=" text-9xl h-[20vh] font-[SaolDisplay-Light] self-center"
         whileInView={{ scale: 2.2, x: 1200, y: 0 }}
         transition={{ duration: 1 }}
+        
       >
         Contact
       </motion.h1>

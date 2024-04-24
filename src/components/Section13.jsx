@@ -27,6 +27,7 @@ function Section13() {
           className=" text-9xl font-[SaolDisplay-Light] self-center"
           whileInView={{ scale: 2.2, x: 1300, y: 200 }}
           transition={{ duration: 1 }}
+          id="about"
         >
           About
         </motion.h1>

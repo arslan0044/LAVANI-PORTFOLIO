@@ -5,7 +5,7 @@ function Section6() {
   return (
     <div div className=" overflow-hidden">
       <motion.div initial={{ y: -100 }} className=" absolute flex  w-full">
-      <motion.h1
+      <motion.h1 id="archive"
           className=" text-9xl font-[SaolDisplay-Light] self-center"
           initial={{ scale: 2.2, x: 560, y: -80 }}
           transition={{ duration: 1 }}

@@ -83,6 +83,7 @@ function Section4() {
           initial={{ x:-20, y: 500 }}
         >
           <motion.h1
+          id="work"
             className=" text-9xl font-[SaolDisplay-Light] self-center"
             // whileInView={{ scale: 2, x: 1000, y: -100 }}
             initial={{scale:2}}
