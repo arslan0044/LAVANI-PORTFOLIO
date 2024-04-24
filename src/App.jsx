@@ -20,7 +20,6 @@ import Section14 from "./components/Section14";
 import Section15 from "./components/Section15";
 import { useState } from "react";
 import Menu from "./components/Menu";
-import TestSlider from "./components/TestSlider.jsx";
 function App() {
   const [open, setOpen] = useState(false);
   const Cancel = (chose)=>{
