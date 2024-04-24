@@ -8,6 +8,7 @@ import {
   GreeenTop,
   YellowCiricle,
   TAILORMADESVGAnimation,
+  UXSVGAnimation,
 } from "./AnimatedSVG";
 export interface IRedoAnimTextProps {
   delay: number;
@@ -71,7 +72,7 @@ export default function RedoAnimText({ delay, text }: IRedoAnimTextProps) {
           ) : el === "Vienna" ? (
             <VIENNASVGAnimation />
           ) : el === "UX" ? (
-            <BRANDSVGAnimation />
+            <UXSVGAnimation />
           ) : el === "creativity," ? (
             <span className=" font-bold capitalize"> Creativity,</span>
           ) : el === "experiences" ? (

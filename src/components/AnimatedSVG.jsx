@@ -22,226 +22,224 @@ function TAILORMADESVGAnimation() {
         </motion.span>
       ) : (
         <motion.svg
-        id="Ebene_1"
-        data-name="Ebene 1"
-        xmlns="http://www.w3.org/2000/svg"
-        width="1000"
-        height="1000"
-        version="1.1"
-        viewBox="0 0 1000 1000"
-      >
-        <motion.line
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            // repeat: Infinity,
-            // repeatType: "loop",
-            // repeatDelay: 1,
-          }}
-          x1="458.1"
-          y1="640.5"
-          x2="458.1"
-          y2="579.9"
-          fill="none"
-          stroke="#212121"
-          stroke-linecap="square"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.line
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            // repeat: Infinity,
-            // repeatType: "loop",
-            // repeatDelay: 1,
-          }}
-          x1="367.3"
-          y1="640.5"
-          x2="367.3"
-          y2="579.9"
-          fill="none"
-          stroke="#212121"
-          stroke-linecap="square"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.line
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            // repeat: Infinity,
-            // repeatType: "loop",
-            // repeatDelay: 1,
-          }}
-          x1="276.5"
-          y1="640.5"
-          x2="276.5"
-          y2="579.9"
-          fill="none"
-          stroke="#212121"
-          stroke-linecap="square"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.line
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            // repeat: Infinity,
-            // repeatType: "loop",
-            // repeatDelay: 1,
-          }}
-          x1="730.1"
-          y1="640.5"
-          x2="730.1"
-          y2="579.9"
-          fill="none"
-          stroke="#212121"
-          stroke-linecap="square"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.line
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            // repeat: Infinity,
-            // repeatType: "loop",
-            // repeatDelay: 1,
-          }}
-          x1="818.4"
-          y1="640.5"
-          x2="818.4"
-          y2="579.9"
-          fill="none"
-          stroke="#212121"
-          stroke-linecap="square"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.line
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            // repeat: Infinity,
-            // repeatType: "loop",
-            // repeatDelay: 1,
-          }}
-          x1="639.3"
-          y1="640.5"
-          x2="639.3"
-          y2="579.9"
-          fill="none"
-          stroke="#212121"
-          stroke-linecap="square"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.line
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            // repeat: Infinity,
-            // repeatType: "loop",
-            // repeatDelay: 1,
-          }}
-          x1="548.5"
-          y1="640.5"
-          x2="548.5"
-          y2="579.9"
-          fill="none"
-          stroke="#212121"
-          stroke-linecap="square"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.path
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            // repeat: Infinity,
-            // repeatType: "loop",
-            // repeatDelay: 1,
-          }}
-          d="M306.8,398.3v60.5h-100.9c47.9,0,100.9-22.1,100.9-60.5Z"
-          fill="#212121"
-          stroke-width="0"
-        />
-        <motion.path
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            // repeat: Infinity,
-            // repeatType: "loop",
-            // repeatDelay: 1,
-          }}
-          d="M205.9,640.5c-55.7,0-100.9-27.1-100.9-60.5v-181.6c0,33.4,45.2,60.5,100.9,60.5h696.1v181.6H205.9Z"
-          fill="none"
-          stroke="#212121"
-          stroke-linecap="square"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.ellipse
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-            // repeat: Infinity,
-            // repeatType: "loop",
-            // repeatDelay: 1,
-          }}
-          cx="205.9"
-          cy="398.3"
-          rx="100.9"
-          ry="60.5"
-          fill="none"
-          stroke="#212121"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.line
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-          }}
-          x1="306.8"
-          y1="458.9"
-          x2="306.8"
-          y2="398.3"
-          fill="none"
-          stroke="#212121"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-      </motion.svg>
+          id="Ebene_1"
+          data-name="Ebene 1"
+          xmlns="http://www.w3.org/2000/svg"
+          width="1000"
+          height="1000"
+          version="1.1"
+          viewBox="0 0 1000 1000"
+        >
+          <motion.line
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              // repeat: Infinity,
+              // repeatType: "loop",
+              // repeatDelay: 1,
+            }}
+            x1="458.1"
+            y1="640.5"
+            x2="458.1"
+            y2="579.9"
+            fill="none"
+            stroke="#212121"
+            stroke-linecap="square"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.line
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              // repeat: Infinity,
+              // repeatType: "loop",
+              // repeatDelay: 1,
+            }}
+            x1="367.3"
+            y1="640.5"
+            x2="367.3"
+            y2="579.9"
+            fill="none"
+            stroke="#212121"
+            stroke-linecap="square"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.line
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              // repeat: Infinity,
+              // repeatType: "loop",
+              // repeatDelay: 1,
+            }}
+            x1="276.5"
+            y1="640.5"
+            x2="276.5"
+            y2="579.9"
+            fill="none"
+            stroke="#212121"
+            stroke-linecap="square"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.line
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              // repeat: Infinity,
+              // repeatType: "loop",
+              // repeatDelay: 1,
+            }}
+            x1="730.1"
+            y1="640.5"
+            x2="730.1"
+            y2="579.9"
+            fill="none"
+            stroke="#212121"
+            stroke-linecap="square"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.line
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              // repeat: Infinity,
+              // repeatType: "loop",
+              // repeatDelay: 1,
+            }}
+            x1="818.4"
+            y1="640.5"
+            x2="818.4"
+            y2="579.9"
+            fill="none"
+            stroke="#212121"
+            stroke-linecap="square"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.line
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              // repeat: Infinity,
+              // repeatType: "loop",
+              // repeatDelay: 1,
+            }}
+            x1="639.3"
+            y1="640.5"
+            x2="639.3"
+            y2="579.9"
+            fill="none"
+            stroke="#212121"
+            stroke-linecap="square"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.line
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              // repeat: Infinity,
+              // repeatType: "loop",
+              // repeatDelay: 1,
+            }}
+            x1="548.5"
+            y1="640.5"
+            x2="548.5"
+            y2="579.9"
+            fill="none"
+            stroke="#212121"
+            stroke-linecap="square"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.path
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              // repeat: Infinity,
+              // repeatType: "loop",
+              // repeatDelay: 1,
+            }}
+            d="M306.8,398.3v60.5h-100.9c47.9,0,100.9-22.1,100.9-60.5Z"
+            fill="#212121"
+            stroke-width="0"
+          />
+          <motion.path
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              // repeat: Infinity,
+              // repeatType: "loop",
+              // repeatDelay: 1,
+            }}
+            d="M205.9,640.5c-55.7,0-100.9-27.1-100.9-60.5v-181.6c0,33.4,45.2,60.5,100.9,60.5h696.1v181.6H205.9Z"
+            fill="none"
+            stroke="#212121"
+            stroke-linecap="square"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.ellipse
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+              // repeat: Infinity,
+              // repeatType: "loop",
+              // repeatDelay: 1,
+            }}
+            cx="205.9"
+            cy="398.3"
+            rx="100.9"
+            ry="60.5"
+            fill="none"
+            stroke="#212121"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.line
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+            }}
+            x1="306.8"
+            y1="458.9"
+            x2="306.8"
+            y2="398.3"
+            fill="none"
+            stroke="#212121"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+        </motion.svg>
       )}
     </>
-    
   );
-
 }
 
 function BERLINSVGAnimation() {
@@ -639,105 +637,263 @@ function VIENNASVGAnimation() {
           transition={{ duration: 0.5 }}
           className="animated_text_style"
         >
-          Vienna 
+          Vienna
         </motion.span>
       ) : (
         <motion.svg
-        id="Ebene_1"
-        data-name="Ebene 1"
-        xmlns="http://www.w3.org/2000/svg"
-        width="100"
-        height="100"
-        version="1.1"
-        viewBox="0 0 1000 1000"
-      >
-        <motion.polygon
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-          }}
-          points="462.1 438.1 148 943.4 294 943.4 493.4 438.1 462.1 438.1"
-          fill="#F6F2E9"
-          fill-rule="evenodd"
-          stroke="#000"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.polygon
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-          }}
-          points="518.2 438.1 832.2 943.4 686.2 943.4 486.9 438.1 518.2 438.1"
-          fill="#F6F2E9"
-          fill-rule="evenodd"
-          stroke="#000"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.circle
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-          }}
-          cx="492"
-          cy="442.3"
-          r="356.3"
-          fill="#F6F2E9"
-          stroke="#000"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.circle
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-          }}
-          cx="492"
-          cy="442.3"
-          r="325"
-          fill="#F6F2E9"
-          stroke="#000"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.g>
+          id="Ebene_1"
+          data-name="Ebene 1"
+          xmlns="http://www.w3.org/2000/svg"
+          width="100"
+          height="100"
+          version="1.1"
+          viewBox="0 0 1000 1000"
+        >
+          <motion.polygon
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+            }}
+            points="462.1 438.1 148 943.4 294 943.4 493.4 438.1 462.1 438.1"
+            fill="#F6F2E9"
+            fill-rule="evenodd"
+            stroke="#000"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.polygon
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+            }}
+            points="518.2 438.1 832.2 943.4 686.2 943.4 486.9 438.1 518.2 438.1"
+            fill="#F6F2E9"
+            fill-rule="evenodd"
+            stroke="#000"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.circle
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+            }}
+            cx="492"
+            cy="442.3"
+            r="356.3"
+            fill="#F6F2E9"
+            stroke="#000"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.circle
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+            }}
+            cx="492"
+            cy="442.3"
+            r="325"
+            fill="#F6F2E9"
+            stroke="#000"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
           <motion.g>
-            <motion.line
+            <motion.g>
+              <motion.line
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{
+                  duration: 2,
+                  ease: "easeInOut",
+                }}
+                x1="492"
+                y1="117.2"
+                x2="492"
+                y2="767.3"
+                fill="#F6F2E9"
+                stroke="#000"
+                stroke-miterlimit="10"
+                stroke-width="20"
+              />
+              <motion.line
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{
+                  duration: 2,
+                  ease: "easeInOut",
+                }}
+                x1="166.9"
+                y1="442.3"
+                x2="817"
+                y2="442.3"
+                fill="#F6F2E9"
+                stroke="#000"
+                stroke-miterlimit="10"
+                stroke-width="20"
+              />
+            </motion.g>
+            <motion.g>
+              <motion.line
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{
+                  duration: 2,
+                  ease: "easeInOut",
+                }}
+                x1="262.1"
+                y1="212.4"
+                x2="721.8"
+                y2="672.1"
+                fill="#F6F2E9"
+                stroke="#000"
+                stroke-miterlimit="10"
+                stroke-width="20"
+              />
+              <motion.line
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{
+                  duration: 2,
+                  ease: "easeInOut",
+                }}
+                x1="262.1"
+                y1="672.1"
+                x2="721.8"
+                y2="212.4"
+                fill="#F6F2E9"
+                stroke="#000"
+                stroke-miterlimit="10"
+                stroke-width="20"
+              />
+            </motion.g>
+          </motion.g>
+          <motion.g>
+            <motion.g>
+              <motion.line
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{
+                  duration: 2,
+                  ease: "easeInOut",
+                }}
+                x1="359.1"
+                y1="145.6"
+                x2="624.9"
+                y2="738.9"
+                fill="#F6F2E9"
+                stroke="#000"
+                stroke-miterlimit="10"
+                stroke-width="20"
+              />
+              <motion.line
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{
+                  duration: 2,
+                  ease: "easeInOut",
+                }}
+                x1="195.3"
+                y1="575.2"
+                x2="788.6"
+                y2="309.4"
+                fill="#F6F2E9"
+                stroke="#000"
+                stroke-miterlimit="10"
+                stroke-width="20"
+              />
+            </motion.g>
+            <motion.g>
+              <motion.line
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{
+                  duration: 2,
+                  ease: "easeInOut",
+                }}
+                x1="188.2"
+                y1="326.5"
+                x2="795.7"
+                y2="558.1"
+                fill="#F6F2E9"
+                stroke="#000"
+                stroke-miterlimit="10"
+                stroke-width="20"
+              />
+              <motion.line
+                initial={{ pathLength: 0 }}
+                animate={{ pathLength: 1 }}
+                transition={{
+                  duration: 2,
+                  ease: "easeInOut",
+                }}
+                x1="376.2"
+                y1="746"
+                x2="607.8"
+                y2="138.6"
+                fill="#F6F2E9"
+                stroke="#000"
+                stroke-miterlimit="10"
+                stroke-width="20"
+              />
+            </motion.g>
+          </motion.g>
+          <motion.circle
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+            }}
+            cx="493.6"
+            cy="444.6"
+            r="43.2"
+            fill="#F6F2E9"
+            stroke="#000"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+          <motion.g>
+            <motion.rect
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
               transition={{
                 duration: 2,
                 ease: "easeInOut",
               }}
-              x1="492"
-              y1="117.2"
-              x2="492"
-              y2="767.3"
+              x="429"
+              y="63"
+              width="127.2"
+              height="68.2"
+              rx="4.7"
+              ry="4.7"
               fill="#F6F2E9"
               stroke="#000"
               stroke-miterlimit="10"
               stroke-width="20"
             />
-            <motion.line
+            <motion.rect
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
               transition={{
                 duration: 2,
                 ease: "easeInOut",
               }}
-              x1="166.9"
-              y1="442.3"
-              x2="817"
-              y2="442.3"
+              x="461.2"
+              y="131.2"
+              width="62.9"
+              height="54.8"
+              rx="2.4"
+              ry="2.4"
               fill="#F6F2E9"
               stroke="#000"
               stroke-miterlimit="10"
@@ -745,69 +901,37 @@ function VIENNASVGAnimation() {
             />
           </motion.g>
           <motion.g>
-            <motion.line
+            <motion.rect
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
               transition={{
                 duration: 2,
                 ease: "easeInOut",
               }}
-              x1="262.1"
-              y1="212.4"
-              x2="721.8"
-              y2="672.1"
+              x="672.8"
+              y="168.5"
+              width="127.2"
+              height="68.2"
+              rx="4.7"
+              ry="4.7"
               fill="#F6F2E9"
               stroke="#000"
               stroke-miterlimit="10"
               stroke-width="20"
             />
-            <motion.line
+            <motion.rect
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
               transition={{
                 duration: 2,
                 ease: "easeInOut",
               }}
-              x1="262.1"
-              y1="672.1"
-              x2="721.8"
-              y2="212.4"
-              fill="#F6F2E9"
-              stroke="#000"
-              stroke-miterlimit="10"
-              stroke-width="20"
-            />
-          </motion.g>
-        </motion.g>
-        <motion.g>
-          <motion.g>
-            <motion.line
-              initial={{ pathLength: 0 }}
-              animate={{ pathLength: 1 }}
-              transition={{
-                duration: 2,
-                ease: "easeInOut",
-              }}
-              x1="359.1"
-              y1="145.6"
-              x2="624.9"
-              y2="738.9"
-              fill="#F6F2E9"
-              stroke="#000"
-              stroke-miterlimit="10"
-              stroke-width="20"
-            />
-            <motion.line
-              initial={{ pathLength: 0 }}
-              animate={{ pathLength: 1 }}
-              transition={{
-                duration: 2,
-                ease: "easeInOut",
-              }}
-              x1="195.3"
-              y1="575.2"
-              x2="788.6"
-              y2="309.4"
+              x="704.9"
+              y="236.7"
+              width="62.9"
+              height="54.8"
+              rx="2.4"
+              ry="2.4"
               fill="#F6F2E9"
               stroke="#000"
               stroke-miterlimit="10"
@@ -815,378 +939,251 @@ function VIENNASVGAnimation() {
             />
           </motion.g>
           <motion.g>
-            <motion.line
+            <motion.rect
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
               transition={{
                 duration: 2,
                 ease: "easeInOut",
               }}
-              x1="188.2"
-              y1="326.5"
-              x2="795.7"
-              y2="558.1"
+              x="764.8"
+              y="398.1"
+              width="127.2"
+              height="68.2"
+              rx="4.7"
+              ry="4.7"
               fill="#F6F2E9"
               stroke="#000"
               stroke-miterlimit="10"
               stroke-width="20"
             />
-            <motion.line
+            <motion.rect
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
               transition={{
                 duration: 2,
                 ease: "easeInOut",
               }}
-              x1="376.2"
-              y1="746"
-              x2="607.8"
-              y2="138.6"
+              x="797"
+              y="466.3"
+              width="62.9"
+              height="54.8"
+              rx="2.4"
+              ry="2.4"
               fill="#F6F2E9"
               stroke="#000"
               stroke-miterlimit="10"
               stroke-width="20"
             />
           </motion.g>
-        </motion.g>
-        <motion.circle
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-          }}
-          cx="493.6"
-          cy="444.6"
-          r="43.2"
-          fill="#F6F2E9"
-          stroke="#000"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.g>
-          <motion.rect
+          <motion.g>
+            <motion.rect
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              x="671.8"
+              y="618"
+              width="127.2"
+              height="68.2"
+              rx="4.7"
+              ry="4.7"
+              fill="#F6F2E9"
+              stroke="#000"
+              stroke-miterlimit="10"
+              stroke-width="20"
+            />
+            <motion.rect
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              x="704"
+              y="686.2"
+              width="62.9"
+              height="54.8"
+              rx="2.4"
+              ry="2.4"
+              fill="#F6F2E9"
+              stroke="#000"
+              stroke-miterlimit="10"
+              stroke-width="20"
+            />
+          </motion.g>
+          <motion.g>
+            <motion.rect
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              x="435.4"
+              y="732.3"
+              width="127.2"
+              height="68.2"
+              rx="4.7"
+              ry="4.7"
+              fill="#F6F2E9"
+              stroke="#000"
+              stroke-miterlimit="10"
+              stroke-width="20"
+            />
+            <motion.rect
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              x="467.6"
+              y="800.5"
+              width="62.9"
+              height="54.8"
+              rx="2.4"
+              ry="2.4"
+              fill="#F6F2E9"
+              stroke="#000"
+              stroke-miterlimit="10"
+              stroke-width="20"
+            />
+          </motion.g>
+          <motion.g>
+            <motion.rect
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              x="188.4"
+              y="640.3"
+              width="127.2"
+              height="68.2"
+              rx="4.7"
+              ry="4.7"
+              fill="#F6F2E9"
+              stroke="#000"
+              stroke-miterlimit="10"
+              stroke-width="20"
+            />
+            <motion.rect
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              x="220.5"
+              y="708.5"
+              width="62.9"
+              height="54.8"
+              rx="2.4"
+              ry="2.4"
+              fill="#F6F2E9"
+              stroke="#000"
+              stroke-miterlimit="10"
+              stroke-width="20"
+            />
+          </motion.g>
+          <motion.g>
+            <motion.rect
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              x="95.4"
+              y="397.1"
+              width="127.2"
+              height="68.2"
+              rx="4.7"
+              ry="4.7"
+              fill="#F6F2E9"
+              stroke="#000"
+              stroke-miterlimit="10"
+              stroke-width="20"
+            />
+            <motion.rect
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              x="127.5"
+              y="465.3"
+              width="62.9"
+              height="54.8"
+              rx="2.4"
+              ry="2.4"
+              fill="#F6F2E9"
+              stroke="#000"
+              stroke-miterlimit="10"
+              stroke-width="20"
+            />
+          </motion.g>
+          <motion.g>
+            <motion.rect
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              x="171.9"
+              y="161.7"
+              width="127.2"
+              height="68.2"
+              rx="4.7"
+              ry="4.7"
+              fill="#F6F2E9"
+              stroke="#000"
+              stroke-miterlimit="10"
+              stroke-width="20"
+            />
+            <motion.rect
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              x="204.1"
+              y="229.9"
+              width="62.9"
+              height="54.8"
+              rx="2.4"
+              ry="2.4"
+              fill="#F6F2E9"
+              stroke="#000"
+              stroke-miterlimit="10"
+              stroke-width="20"
+            />
+          </motion.g>
+          <motion.circle
             initial={{ pathLength: 0 }}
             animate={{ pathLength: 1 }}
             transition={{
               duration: 2,
               ease: "easeInOut",
             }}
-            x="429"
-            y="63"
-            width="127.2"
-            height="68.2"
-            rx="4.7"
-            ry="4.7"
-            fill="#F6F2E9"
+            cx="494"
+            cy="444.3"
+            r="167.1"
+            fill="none"
             stroke="#000"
             stroke-miterlimit="10"
             stroke-width="20"
           />
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="461.2"
-            y="131.2"
-            width="62.9"
-            height="54.8"
-            rx="2.4"
-            ry="2.4"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-        </motion.g>
-        <motion.g>
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="672.8"
-            y="168.5"
-            width="127.2"
-            height="68.2"
-            rx="4.7"
-            ry="4.7"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="704.9"
-            y="236.7"
-            width="62.9"
-            height="54.8"
-            rx="2.4"
-            ry="2.4"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-        </motion.g>
-        <motion.g>
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="764.8"
-            y="398.1"
-            width="127.2"
-            height="68.2"
-            rx="4.7"
-            ry="4.7"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="797"
-            y="466.3"
-            width="62.9"
-            height="54.8"
-            rx="2.4"
-            ry="2.4"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-        </motion.g>
-        <motion.g>
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="671.8"
-            y="618"
-            width="127.2"
-            height="68.2"
-            rx="4.7"
-            ry="4.7"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="704"
-            y="686.2"
-            width="62.9"
-            height="54.8"
-            rx="2.4"
-            ry="2.4"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-        </motion.g>
-        <motion.g>
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="435.4"
-            y="732.3"
-            width="127.2"
-            height="68.2"
-            rx="4.7"
-            ry="4.7"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="467.6"
-            y="800.5"
-            width="62.9"
-            height="54.8"
-            rx="2.4"
-            ry="2.4"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-        </motion.g>
-        <motion.g>
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="188.4"
-            y="640.3"
-            width="127.2"
-            height="68.2"
-            rx="4.7"
-            ry="4.7"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="220.5"
-            y="708.5"
-            width="62.9"
-            height="54.8"
-            rx="2.4"
-            ry="2.4"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-        </motion.g>
-        <motion.g>
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="95.4"
-            y="397.1"
-            width="127.2"
-            height="68.2"
-            rx="4.7"
-            ry="4.7"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="127.5"
-            y="465.3"
-            width="62.9"
-            height="54.8"
-            rx="2.4"
-            ry="2.4"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-        </motion.g>
-        <motion.g>
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="171.9"
-            y="161.7"
-            width="127.2"
-            height="68.2"
-            rx="4.7"
-            ry="4.7"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-          <motion.rect
-            initial={{ pathLength: 0 }}
-            animate={{ pathLength: 1 }}
-            transition={{
-              duration: 2,
-              ease: "easeInOut",
-            }}
-            x="204.1"
-            y="229.9"
-            width="62.9"
-            height="54.8"
-            rx="2.4"
-            ry="2.4"
-            fill="#F6F2E9"
-            stroke="#000"
-            stroke-miterlimit="10"
-            stroke-width="20"
-          />
-        </motion.g>
-        <motion.circle
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-          }}
-          cx="494"
-          cy="444.3"
-          r="167.1"
-          fill="none"
-          stroke="#000"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-      </motion.svg>
+        </motion.svg>
       )}
     </>
-    
   );
 }
 function GreeenTop() {
@@ -1238,66 +1235,115 @@ function NEWSVGTest() {
   );
 }
 function BRANDSVGAnimation() {
+  const [showText, setShowText] = useState(false);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setShowText((prevState) => !prevState);
+    }, 3000); // Change the interval duration (in milliseconds) as needed
+    return () => clearInterval(interval);
+  }, []);
   return (
-    <motion.svg
-      id="Ebene_1"
-      data-name="Ebene 1"
-      xmlns="http://www.w3.org/2000/svg"
-      width="1000"
-      height="1000"
+    <>
+      {showText ? (
+        <motion.span
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="animated_text_style"
+        >
+          brand
+        </motion.span>
+      ) : (
+        <motion.svg
+          id="Ebene_1"
+          data-name="Ebene 1"
+          xmlns="http://www.w3.org/2000/svg"
+          width="1000"
+          height="1000"
+          version="1.1"
+          viewBox="0 0 1000 1000"
+        >
+          <motion.g>
+            <motion.path
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              d="M120.6,509.3l81,184.6c9.5,21.6,34.7,31.4,56.3,22,0,0,0,0,0,0l302-132.5,73.8-189.1-189.1-73.8-302,132.5c-21.6,9.5-31.4,34.7-22,56.3,0,0,0,0,0,0Z"
+              fill="none"
+              stroke="#212121"
+              stroke-linecap="square"
+              stroke-miterlimit="10"
+              stroke-width="20"
+            />
+            <motion.circle
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: 1 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              cx="481.4"
+              cy="461.1"
+              r="42.7"
+              fill="none"
+              stroke="#212121"
+              stroke-linecap="square"
+              stroke-miterlimit="10"
+              stroke-width="20"
+            />
+          </motion.g>
+          <motion.path
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: 1 }}
+            transition={{
+              duration: 2,
+              ease: "easeInOut",
+            }}
+            d="M598,520c27.8,3,66.5,3.3,98-1.7,113.1-18.1,196.4-84.9,186.1-149.3-10.3-64.4-110.3-102-223.4-83.9-113.1,18.1-196.4,84.9-186.1,149.3,2.7,17,11.8,32,25.6,44.7"
+            fill="none"
+            stroke="#212121"
+            stroke-linecap="square"
+            stroke-miterlimit="10"
+            stroke-width="20"
+          />
+        </motion.svg>
+      )}
+    </>
+  );
+}
+function UXSVGAnimation() {
+  return (
+    <svg
       version="1.1"
-      viewBox="0 0 1000 1000"
+      id="Layer_1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      x="0px"
+      y="0px"
+      viewBox="0 0 122.88 95.51"
+      style={{ enableBackground: "new 0 0 122.88 95.51" }}
+      xmlSpace="preserve"
     >
-      <motion.g>
-        <motion.path
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-          }}
-          d="M120.6,509.3l81,184.6c9.5,21.6,34.7,31.4,56.3,22,0,0,0,0,0,0l302-132.5,73.8-189.1-189.1-73.8-302,132.5c-21.6,9.5-31.4,34.7-22,56.3,0,0,0,0,0,0Z"
-          fill="none"
-          stroke="#212121"
-          stroke-linecap="square"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-        <motion.circle
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: 1 }}
-          transition={{
-            duration: 2,
-            ease: "easeInOut",
-          }}
-          cx="481.4"
-          cy="461.1"
-          r="42.7"
-          fill="none"
-          stroke="#212121"
-          stroke-linecap="square"
-          stroke-miterlimit="10"
-          stroke-width="20"
-        />
-      </motion.g>
-      <motion.path
-        initial={{ pathLength: 0 }}
-        animate={{ pathLength: 1 }}
-        transition={{
-          duration: 2,
-          ease: "easeInOut",
+      <style
+        type="text/css"
+        dangerouslySetInnerHTML={{
+          __html: ".st0{fill-rule:evenodd;clip-rule:evenodd;}",
         }}
-        d="M598,520c27.8,3,66.5,3.3,98-1.7,113.1-18.1,196.4-84.9,186.1-149.3-10.3-64.4-110.3-102-223.4-83.9-113.1,18.1-196.4,84.9-186.1,149.3,2.7,17,11.8,32,25.6,44.7"
-        fill="none"
-        stroke="#212121"
-        stroke-linecap="square"
-        stroke-miterlimit="10"
-        stroke-width="20"
       />
-    </motion.svg>
+      <g>
+        <path
+          className="st0"
+          d="M8.32,0h106.24c4.58,0,8.32,3.74,8.32,8.32v78.87c0,4.57-3.74,8.32-8.32,8.32H8.32C3.74,95.51,0,91.77,0,87.19 V8.32C0,3.74,3.74,0,8.32,0L8.32,0z M12.6,26.95h96.77v41.08H12.6V26.95L12.6,26.95z M32.21,38.67h5.98v12.44 c0,1.23-0.18,2.4-0.54,3.49c-0.36,1.1-0.92,2.06-1.68,2.88c-0.76,0.82-1.56,1.4-2.4,1.73c-1.16,0.46-2.56,0.7-4.19,0.7 c-0.94,0-1.97-0.07-3.09-0.21c-1.11-0.14-2.05-0.42-2.8-0.85c-0.75-0.42-1.43-1.02-2.05-1.8c-0.62-0.78-1.05-1.58-1.28-2.41 c-0.37-1.33-0.56-2.5-0.56-3.53V38.67h5.98v12.74c0,1.14,0.29,2.03,0.88,2.66c0.59,0.64,1.4,0.96,2.44,0.96 c1.02,0,1.83-0.32,2.42-0.95c0.58-0.63,0.88-1.52,0.88-2.68V38.67L32.21,38.67z M42.39,38.67h6.01v20.89h-6.01V38.67L42.39,38.67z M55.59,38.32h2.72l-4.89,21.59h-2.72L55.59,38.32L55.59,38.32z M72.82,38.67h5.98v12.44c0,1.23-0.18,2.4-0.54,3.49 c-0.36,1.1-0.92,2.06-1.68,2.88c-0.76,0.82-1.56,1.4-2.4,1.73c-1.16,0.46-2.56,0.7-4.19,0.7c-0.94,0-1.97-0.07-3.09-0.21 c-1.11-0.14-2.05-0.42-2.8-0.85c-0.75-0.42-1.43-1.02-2.05-1.8c-0.62-0.78-1.05-1.58-1.28-2.41c-0.37-1.33-0.55-2.5-0.55-3.53 V38.67h5.98v12.74c0,1.14,0.29,2.03,0.88,2.66c0.59,0.64,1.4,0.96,2.44,0.96c1.02,0,1.83-0.32,2.42-0.95 c0.58-0.63,0.88-1.52,0.88-2.68V38.67L72.82,38.67z M81.43,38.67h6.61l3.43,6.43l3.33-6.43h6.52L95.3,48.79l6.59,10.77h-6.74 l-3.8-6.71l-3.83,6.71h-6.69l6.68-10.89L81.43,38.67L81.43,38.67z M66.87,83.68c-1.78,0-3.22-1.57-3.22-3.5 c0-1.94,1.44-3.5,3.22-3.5h39.65c1.78,0,3.22,1.57,3.22,3.5c0,1.94-1.44,3.5-3.22,3.5H66.87L66.87,83.68z M14.96,83.68 c-1.76,0-3.19-1.57-3.19-3.5c0-1.94,1.43-3.5,3.19-3.5h36.76c1.76,0,3.19,1.57,3.19,3.5c0,1.94-1.43,3.5-3.19,3.5H14.96 L14.96,83.68z M117.97,20.1H5.29V88c0,0.64,0.25,1.2,0.67,1.63c0.43,0.42,0.99,0.67,1.63,0.67h108.04c0.64,0,1.2-0.25,1.63-0.67 c0.43-0.43,0.67-0.99,0.67-1.63V20.1H117.97L117.97,20.1z M106.64,6.16c2.27,0,4.11,1.84,4.11,4.11c0,2.27-1.84,4.11-4.11,4.11 c-2.27,0-4.11-1.84-4.11-4.11C102.54,8,104.38,6.16,106.64,6.16L106.64,6.16z M78.8,6.16c2.27,0,4.11,1.84,4.11,4.11 c0,2.27-1.84,4.11-4.11,4.11c-2.27,0-4.11-1.84-4.11-4.11C74.69,8,76.53,6.16,78.8,6.16L78.8,6.16z M92.72,6.16 c2.27,0,4.11,1.84,4.11,4.11c0,2.27-1.84,4.11-4.11,4.11c-2.27,0-4.11-1.84-4.11-4.11C88.61,8,90.45,6.16,92.72,6.16L92.72,6.16z"
+        />
+      </g>
+    </svg>
   );
 }
 export {
+  UXSVGAnimation,
   BERLINSVGAnimation,
   TAILORMADESVGAnimation,
   BRANDSVGAnimation,
