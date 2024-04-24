@@ -258,7 +258,7 @@ function BERLINSVGAnimation() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="animated_text_style"
+          className="animated_text_style "
         >
           Berlin
         </motion.span>

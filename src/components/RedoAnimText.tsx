@@ -65,7 +65,7 @@ export default function RedoAnimText({ delay, text }: IRedoAnimTextProps) {
             delay: i / 10,
           }}
           key={i}
-          className="animated_svg_style text-5xl"
+          className="animated_svg_style text-[3rem] "
         >
           {el === "Berlin" ? (
             <BERLINSVGAnimation />
