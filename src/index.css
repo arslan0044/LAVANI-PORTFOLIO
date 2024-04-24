@@ -32,3 +32,15 @@ body {
 .swiper-pagination-bullet {
     background-color: black !important;
 }
+.animated_svg_style svg{
+    display: inline;
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -8px;
+}
+.animated_text_style{
+    font-size: 3rem;
+    line-height: 2.25rem;
+
+}
