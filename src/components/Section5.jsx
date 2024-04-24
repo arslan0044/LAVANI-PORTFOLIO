@@ -1,39 +1,93 @@
-import { motion } from 'framer-motion';
-import React from 'react'
-
+import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css";
+import { Pagination,Mousewheel  } from "swiper/modules";
+import { motion } from "framer-motion";
+function renderPagination(swiper, current, total) {
+  return `<div class="swiper-pagination absolute top-1/2 -translate-y-1/2 right-0 flex flex-col">
+            ${[...Array(total)]
+              .map(
+                (_, i) => `
+              <span class="swiper-pagination-bullet ${
+                i === current ? "swiper-pagination-bullet-active " : ""
+              } block"></span>
+            `
+              )
+              .join("")}
+          </div>`;
+}
 function Section5() {
+  const swiperRef = React.useRef(null);
+  const slides = [
+ {title:"", des:"", work:"01 Work" , pagination:"", img:"image.png" },
+ {title:"", des:"", work:"02 Work" , pagination:"", img:"image.png" },
+ {title:"", des:"", work:"03 Work" , pagination:"", img:"image.png" },
+ {title:"", des:"", work:"04 Work" , pagination:"", img:"image.png" },
+ {title:"", des:"", work:"05 Work" , pagination:"", img:"image.png" },
+ {title:"", des:"", work:"06 Work" , pagination:"", img:"image.png" },
+ {title:"", des:"", work:"07 Work" , pagination:"", img:"image.png" },
+ {title:"", des:"", work:"08 Work" , pagination:"", img:"image.png" },
+ {title:"", des:"", work:"09 Work" , pagination:"", img:"image.png" },
+ {title:"", des:"", work:"10 Work" , pagination:"", img:"image.png" },
+ {title:"", des:"", work:"11 Work" , pagination:"", img:"image.png" },
+ {title:"", des:"", work:"12 Work" , pagination:"", img:"image.png" },
+
+   
+  ];
+
   return (
 
     <>
-      <div className='h-fit'>
-        <div className=' relative'>
-          <div className=''>
-            <svg width="1242" height="1341" viewBox="0 0 1542 1641" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M92.7732 1453.12C26.7206 1397.93 -33.4785 1334.5 -92.7542 1271.21C-171.461 1187.15 -252.567 1096.98 -279.773 982.531C-334.823 750.959 -194.468 358.133 -22.6494 204.118C88.9658 104.075 301.891 51.3749 443.862 21.084C610.187 -14.4107 785.46 -3.70138 944.697 55.5323C1198.42 149.903 1406.99 365.854 1499.59 630.064C1531.93 722.349 1550.76 822.049 1537.34 919.82C1519.85 1047.34 1449.18 1161.12 1366.71 1257.57C1222.06 1426.75 1032.75 1557.42 822.707 1612.24C612.659 1667.06 382.199 1642.37 196.858 1528.68C160.287 1506.25 125.8 1480.72 92.7713 1453.12" fill="url(#paint0_linear_1_1687)" />
-              <defs>
-                <linearGradient id="paint0_linear_1_1687" x1="729.179" y1="5.34349" x2="528.821" y2="1637.13" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#ADDBD0" />
-                  <stop offset="1" stop-color="#88C4D2" />
-                </linearGradient>
-              </defs>
-            </svg>
+    
+    {/*Slider*/}
+    <Swiper
+        ref={swiperRef}
+        direction="vertical"
+        slidesPerView={1}
+        spaceBetween={30}
+        modules={[Pagination,Mousewheel ]}
+        pagination={{
+          clickable: true,
+          renderPagination,
+        }}
+        className="h-[230vh] my-5"
+      >
+        {slides.map((slide) => (
+          <SwiperSlide key={slide.key}> <div className='h-[200vh]'>
+     
+          <div className=' relative'>
+              <div className=''>
+                <svg width="1242" height="1341" viewBox="0 0 1542 1641" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M92.7732 1453.12C26.7206 1397.93 -33.4785 1334.5 -92.7542 1271.21C-171.461 1187.15 -252.567 1096.98 -279.773 982.531C-334.823 750.959 -194.468 358.133 -22.6494 204.118C88.9658 104.075 301.891 51.3749 443.862 21.084C610.187 -14.4107 785.46 -3.70138 944.697 55.5323C1198.42 149.903 1406.99 365.854 1499.59 630.064C1531.93 722.349 1550.76 822.049 1537.34 919.82C1519.85 1047.34 1449.18 1161.12 1366.71 1257.57C1222.06 1426.75 1032.75 1557.42 822.707 1612.24C612.659 1667.06 382.199 1642.37 196.858 1528.68C160.287 1506.25 125.8 1480.72 92.7713 1453.12" fill="url(#paint0_linear_1_1687)" />
+                  <defs>
+                    <linearGradient id="paint0_linear_1_1687" x1="729.179" y1="5.34349" x2="528.821" y2="1637.13" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#ADDBD0" />
+                      <stop offset="1" stop-color="#88C4D2" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+            </div>
+            
+            <div className=" relative">
+              <motion.div
+                className=" absolute w-full justify-end flex"
+                // initial={{ x: -90, y: -250 }}
+                initial={{ x: 0, y: -1150 }}
+              // transition={{ duration: 1.5 }}
+              >
+                <img src={slide.img} className='h-[900px] w-fit' alt="" />
+              </motion.div>
+            </div>
+      
           </div>
-        </div>
-        <div className=" relative">
-          <motion.div
-            className=" absolute w-full justify-end flex"
-            // initial={{ x: -90, y: -250 }}
-            initial={{ x: 0, y: -1150 }}
-          // transition={{ duration: 1.5 }}
-          >
-            <img src="image.png" className='h-[900px] w-fit' alt="" />
-          </motion.div>
-        </div>
+          
+          <motion.div initial={{ rotate: -90, y: -1500, x: -700 }} className="">
+        <h1 className=" text-5xl font-[SaolDisplay-Light] ">{slide.work}</h1>
+      </motion.div>
 
-      </div>
-
-      <div className=" relative ">
-        <motion.svg initial={{ x: 800, y: -1300 }} width={384} height={384} viewBox="0 0 384 384" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div className=" relative ">
+        <motion.svg whileInView={{ x: 830, y: -1450 }} width={384} height={384} viewBox="0 0 384 384" fill="none" xmlns="http://www.w3.org/2000/svg">
           <mask id="mask0_23_264" style={{ maskType: 'luminance' }} maskUnits="userSpaceOnUse" x={0} y={0} width={384} height={384}>
             <path d="M302.414 383.483L383.492 81.082L81.0781 4.16322e-06L-0.00051092 302.401L302.414 383.483Z" fill="white" />
           </mask>
@@ -97,8 +151,8 @@ function Section5() {
       <div className=" relative">
         <motion.div
           className=" absolute w-full justify-start flex"
-          initial={{ x: 0, y: -1450 }}
-          whileInView={{ x: 150, y: -600 }}
+          initial={{ x: 0, y: -1150 }}
+          whileInView={{ x: 150, y: -900 }}
           transition={{ duration: 2 }}
         >
 
@@ -107,7 +161,7 @@ function Section5() {
           </svg>
         </motion.div>
         <motion.svg
-          initial={{ y: -440, x: 740 }}
+          initial={{ y: -640, x: 740 }}
           width="36"
           height="40"
           viewBox="0 0 36 40"
@@ -120,6 +174,12 @@ function Section5() {
           />
         </motion.svg>
       </div>
+          
+          </SwiperSlide>
+        ))}
+      </Swiper>
+
+    
 
     </>
   );

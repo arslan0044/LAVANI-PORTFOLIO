@@ -1,13 +1,26 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence, usePresence,useCycle } from "framer-motion";
 
-import React, { useState } from "react";
+import React, { useRef } from "react";
 
-function Menu({ isVisible }) {
+function Menu({ isVisible, Cancel }) {
+  const ref = useRef(null);
+  // const Visible= isVisible
+  const [isPresent, safeToRemove] = usePresence();
+  const [Visible, setVisible] = useCycle(isVisible);
+  const Cansal = (chose) => {
+    // const isVisible= Visible
+    if (chose) {
+      ref.current;
+      isVisible(false);
+    }
+  };
   return (
     <AnimatePresence>
-      {isVisible && (
+      {Visible && (
         <>
           <motion.div
+            key="modal"
+            ref={ref}
             className=" w-full h-screen"
             initial={{ opacity: 0, rotate: -90 }}
             animate={{ opacity: 1, rotate: 0 }}
@@ -29,8 +42,8 @@ function Menu({ isVisible }) {
                 <br /> DIGITAL DESIGN
               </motion.div>
             </motion.div>
-            {/* <motion.button onClick={() => isVisible(false)}> hacker</motion.button> */}
-            <motion.div
+         
+           <motion.div
               initial={{ opacity: 0, y: -738 }}
               animate={{ y: -738, opacity: 1 }}
               transition={{ delay: 2 }}
@@ -74,7 +87,7 @@ function Menu({ isVisible }) {
                 </div>
                 <div>
                   <button
-                    onClick={() => isVisible(!false)}
+                    onClick={() => (Cancel(true))}
                     className=" flex text-2xl items-center h-32 w-32 justify-center"
                   >
                     Menu

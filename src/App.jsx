@@ -1,13 +1,13 @@
-// import { BRANDSVGAnimation } from "./components/AnimatedSVG";
+import { BRANDSVGAnimation } from "./components/AnimatedSVG";
 import { motion } from "framer-motion";
 import Header from "./components/Header";
 import { GreeenTop, YellowCiricle } from "./components/AnimatedSVG";
-// motion
+motion
 import Section1 from "./components/Section1";
 import Section2 from "./components/Section2";
 import Section3 from "./components/Section3";
 import Section4 from "./components/Section4";
-import Section5 from "./components/Section5";
+import Section5 from "./components/Section5.jsx";
 import Section6 from "./components/Section6";
 import Section7 from "./components/Section7";
 import Section8 from "./components/Section8";
@@ -20,16 +20,17 @@ import Section14 from "./components/Section14";
 import Section15 from "./components/Section15";
 import { useState } from "react";
 import Menu from "./components/Menu";
+import TestSlider from "./components/TestSlider.jsx";
 function App() {
   const [open, setOpen] = useState(false);
-  const Cansal = (chose)=>{
+  const Cancel = (chose)=>{
     if(chose){
       setOpen(false)
     }
      }
   return (
     <div div className=" overflow-hidden">
-      
+
       {!open && (
         <>
         <nav className=" flex items-top justify-between px-3">
@@ -44,7 +45,7 @@ function App() {
           <GreeenTop />
         </motion.div>
 
-        {/* logo */}
+        
         <div className=" items-center justify-center flex mt-[88px]">
           <svg
             width="80"
@@ -103,28 +104,11 @@ function App() {
           <Section15 />
         </>
       )}
-      {open && <Menu isVisible={Cansal}  />}
-      {/* <>
-       <Header />
-       <Section1 />
-       <Section2 />
-       <Section3 />
-       <Section4 />
-       <Section5 />
-       <Section6 />
-       <Section7/>
-       <Section8/>
-       <Section9/>
-       <Section10/>
-       <Section11/>
-       <Section12/>
-       <Section13/>
-       <Section14/>
-       <Section15/>
-     </> */}
-      {/*     
-      <TAILORMADESVGAnimation/>
-      <BERLINSVGAnimation/> */}
+      {open && <Menu isVisible={true} Cancel={Cancel} />}
+    
+    
+
+    {/* <TestSlider/> */}
     </div>
   );
 }
